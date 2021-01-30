@@ -118,5 +118,6 @@ main .column.right .links a {
 footer {
 	display: flex;
 	margin-top: 3rem;
-	font-size: 0.75rem
+	font-size: 0.75rem;
+	text-align-last: end
 }
