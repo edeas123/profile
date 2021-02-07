@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://api.mybytesni.com/visitor",
+  "url": "https://api.iamobaro.com/visitor",
   "method": "POST",
 };
 $.ajax(settings).done(function (response) {

@@ -18,7 +18,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Copy website files to AWS S3
-        run: aws s3 sync src s3://www.mybytesni.com
+        run: aws s3 sync src s3://www.iamobaro.com
 
       - name: Invalidate Caches
         run: aws cloudfront create-invalidation --distribution-id E1F56EPOZWRHDD --paths "/*"
