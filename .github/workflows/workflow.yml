@@ -1,7 +1,8 @@
 name: Website
 on:
   push:
-    branch: [main]
+    branches:
+      - main
 jobs:
   deploy:
     name: Deploy files to Amazon S3
